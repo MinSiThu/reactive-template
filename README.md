@@ -25,28 +25,28 @@ This is html part
 The following is written in `<script></script>`.
 
     let rtApp = RT({
-				    app:'#app',
-					data : {
-						     text: 'Hello RT',
-						   },
-					});
+		app:'#app',
+		data : {
+				text: 'Hello RT',
+				},
+	});
 	rtApp.init();
 
 ## *Computed Value*
 **RT** also supports computed props.
 
     let rtApp = RT({
-    				    app:'#app',
-    					data : {
-    						     text: 'Hello RT',
-    						 },
-	    				computed:{
-			    				info:function(){
-									return `${this.text} from newbie RT....`; 	
-								}
-		    				},
-    					});
-	   rtApp.init();
+    	app:'#app',
+    	data : {
+    		text: 'Hello RT',
+    	},
+	    computed:{
+			 info:function(){
+			 return `${this.text} from newbie RT....`; 	
+			}
+		 },
+    });
+	rtApp.init();
 *
 
 ## Smooth Template	(from doT.js)
