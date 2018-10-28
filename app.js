@@ -1,4 +1,4 @@
-let Vue = RT({
+let rtApp = RT({
     app:'body',
     data : {
         name : 'Min',
@@ -15,4 +15,4 @@ let Vue = RT({
         },
     },
 })
-Vue.init();
+rtApp.init();
